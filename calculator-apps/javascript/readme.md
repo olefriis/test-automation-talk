@@ -8,15 +8,23 @@ To run the calculator app:
 
 1. Clone the repository to your local machine.
 2. Navigate to the `calculator-apps/javascript` directory.
-3. Open the `index.html` file in your web browser to use the calculator.
+3. Start Python HTTP server by running the following command:
+   ```
+   python -m http.server
+   ```
+4. Open your web browser and navigate to `http://localhost:8000`.
 
 ## Running Tests
 
 To run the Jasmine tests:
 
 1. Navigate to the `calculator-apps/javascript` directory.
-2. Open the `SpecRunner.html` file in your web browser.
-3. The test results will be displayed on the page.
+2. Start Python HTTP server by running the following command:
+   ```
+   python -m http.server
+   ```
+3. Navigate to `http://localhost:8000/SpecRunner.html`.
+4. The test results will be displayed on the page.
 
 ## Contributing
 
