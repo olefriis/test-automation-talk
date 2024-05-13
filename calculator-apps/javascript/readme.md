@@ -19,12 +19,16 @@ To run the calculator app:
 To run the Jasmine tests:
 
 1. Navigate to the `calculator-apps/javascript` directory.
-2. Start Python HTTP server by running the following command:
+2. Install Jasmine by running the following command:
+   ```
+   npm install
+   ```
+3. Start Python HTTP server by running the following command:
    ```
    python -m http.server
    ```
-3. Navigate to `http://localhost:8000/SpecRunner.html`.
-4. The test results will be displayed on the page.
+4. Navigate to `http://localhost:8000/SpecRunner.html`.
+5. The test results will be displayed on the page.
 
 ## Contributing
 
